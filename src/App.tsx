@@ -6,6 +6,7 @@ import { Analytics } from './components/sections/Analytics';
 import { AttackLogs } from './components/sections/AttackLogs';
 import { ThreatIntelligence } from './components/sections/ThreatIntelligence';
 import { Breaches } from './components/sections/Breaches';
+import { SafeDeploymentPlan } from './components/sections/SafeDeploymentPlan';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Dashboard />
       <RealTimeAnalysis />
       <Analytics />
+      <SafeDeploymentPlan />
       <AttackLogs />
       <ThreatIntelligence />
     </AppLayout>

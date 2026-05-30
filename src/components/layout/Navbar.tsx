@@ -7,6 +7,7 @@ const navItems = [
   { name: 'Overview', href: '#overview' },
   { name: 'Live Feed', href: '#live' },
   { name: 'Analytics', href: '#analytics' },
+  { name: 'Deploy', href: '#deployment' },
   { name: 'Intel', href: '#intel' },
 ];
 

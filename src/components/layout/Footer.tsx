@@ -38,6 +38,7 @@ export const Footer = () => {
               { name: 'Overview', href: '#overview' },
               { name: 'Live Activity Feed', href: '#live' },
               { name: 'Forensics Analytics', href: '#analytics' },
+              { name: 'Safe Deployment', href: '#deployment' },
               { name: 'Threat Intelligence', href: '#intel' },
             ].map((item) => (
               <li key={item.name}>
